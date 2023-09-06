@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DF7700542AA82CF4006F663E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7700532AA82CF4006F663E /* main.m */; };
+		DF77005C2AA836EC006F663E /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = DF77005B2AA836EC006F663E /* Doctor.m */; };
+		DF77005F2AA836FC006F663E /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = DF77005E2AA836FC006F663E /* Patient.m */; };
+		DF7700632AA843AC006F663E /* Doll.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7700622AA843AC006F663E /* Doll.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		DF7700502AA82CF4006F663E /* obj-c-3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "obj-c-3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7700532AA82CF4006F663E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF77005A2AA836EC006F663E /* Doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		DF77005B2AA836EC006F663E /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		DF77005D2AA836FC006F663E /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		DF77005E2AA836FC006F663E /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		DF7700602AA83A3D006F663E /* PillEater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PillEater.h; sourceTree = "<group>"; };
+		DF7700612AA843AC006F663E /* Doll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doll.h; sourceTree = "<group>"; };
+		DF7700622AA843AC006F663E /* Doll.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doll.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				DF7700532AA82CF4006F663E /* main.m */,
+				DF7700612AA843AC006F663E /* Doll.h */,
+				DF7700622AA843AC006F663E /* Doll.m */,
+				DF77005D2AA836FC006F663E /* Patient.h */,
+				DF77005E2AA836FC006F663E /* Patient.m */,
+				DF77005A2AA836EC006F663E /* Doctor.h */,
+				DF77005B2AA836EC006F663E /* Doctor.m */,
+				DF7700602AA83A3D006F663E /* PillEater.h */,
 			);
 			path = "obj-c-3";
 			sourceTree = "<group>";
@@ -119,6 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7700632AA843AC006F663E /* Doll.m in Sources */,
+				DF77005F2AA836FC006F663E /* Patient.m in Sources */,
+				DF77005C2AA836EC006F663E /* Doctor.m in Sources */,
 				DF7700542AA82CF4006F663E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
